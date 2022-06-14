@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="generalQuestions">
+            <div class="header">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, doloribus placeat? Unde cumque quis modi iure placeat. Provident, molestiae est.</p>
+            </div>
+        </div>
+        <div class="generalQuestions">
+            <div class="header">
+                <p>Unde cumque quis modi iure placeat.</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet cumque quis modi iure placeat. Provident, molestiae est.</p>
+            </div>
+        </div>
+        <div class="generalQuestions">
+            <div class="header">
+                <p>Vero ipsum magnam ipsam!</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, soluta quaerat quas optio architecto dignissimos eos, aut nemo eius nesciunt a tenetur eligendi delectus ducimus deserunt, modi tempore dolorum culpa.</p>
+            </div>
+        </div>
+        <div class="generalQuestions">
+            <div class="header">
+                <p>Eius, eveniet laborum. Nobis similique</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores vero dicta facilis ratione eum eius.</p>
+            </div>
+        </div>
+        <div class="generalQuestions">
+            <div class="header">
+                <p>Odio nobis facilis vero ipsum magnam ipsam!</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ipsa cupiditate, labore mollitia ipsam quod, odio molestias porro, eum nostrum error fugiat?</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script>
+        $(function(){
+            $(".generalQuestions").on("click",function(event){
+                $(this).children().last().slideToggle(); 
+            })
+        })
+    </script>
+</body>
+</html>
